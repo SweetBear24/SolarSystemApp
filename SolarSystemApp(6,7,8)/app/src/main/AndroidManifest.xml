@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewsApp"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.newsapp.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NewsApp"
+            android:configChanges="orientation|screenSize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newsapp.MoonInfoActivity"
+            android:exported="true"
+            android:label="Информация о Луне"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.SunInfoActivity"
+            android:exported="true"
+            android:label="Информация о Солнце"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.MercuryInfoActivity"
+            android:exported="true"
+            android:label="Информация о Меркурие"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.VenusInfoActivity"
+            android:exported="true"
+            android:label="Информация о Венере"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.EarthInfoActivity"
+            android:exported="true"
+            android:label="Информация о Земле"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.MarsInfoActivity"
+            android:exported="true"
+            android:label="Информация о Марсе"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.JupiterInfoActivity"
+            android:exported="true"
+            android:label="Информация о Юпитере"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.SaturnInfoActivity"
+            android:exported="true"
+            android:label="Информация о Сатурне"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.UranusInfoActivity"
+            android:exported="true"
+            android:label="Информация об Уране"
+            android:theme="@style/Theme.NewsApp" />
+        <activity
+            android:name="com.example.newsapp.NeptuneInfoActivity"
+            android:exported="true"
+            android:label="Информация о Нептуне"
+            android:theme="@style/Theme.NewsApp" />
+    </application>
+
+</manifest>
